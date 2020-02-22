@@ -1,0 +1,12 @@
+zuul:
+  prefix: /api
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+       
+logging:
+  level:
+    com.wsproject.zuulsvr: debug
