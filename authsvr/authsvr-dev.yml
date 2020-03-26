@@ -15,7 +15,9 @@ spring:
     show-sql: true   
     hibernate:
       ddl-auto: update
-
+  zipkin:
+    base-url: http://zipkin:9411
+    
 logging:
   level:
     com.wsproject.authsvr: debug
