@@ -3,6 +3,7 @@ spring:
     url: "jdbc:mariadb://mslim-test-db.ch6vyze6a3fs.ap-northeast-2.rds.amazonaws.com:3306/batch_service"
     username: "batch_service"
     password: "{cipher}7978eb95dd6c1a6495b162e549f0da8d50896d8045b6a0cb9f2e6928f92f913d"
+    initialization-mode: always
     dbcp2:
       test-while-idle: true  
       validation-query: "SELECT 1"
