@@ -11,9 +11,9 @@ logging:
   level:
     com.wsproject.zuulsvr: debug
     
-spring:
-  zipkin:
-    base-url: http://zipkin:9411
-  sleuth:
-    sampler:
-      probability: 100
+#spring:
+#  zipkin:
+#    base-url: http://zipkin:9411
+#  sleuth:
+#    sampler:
+#      probability: 100
