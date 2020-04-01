@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: "jdbc:mariadb://localhost:3306/authsvr"
-    username: "mslim"
-    password: "{cipher}b782b7d252d96a69b616427af9d0e9d689318d28d1ac6cbea4fb26e40233dee4"
+    url: "jdbc:mariadb://mslim-test-db.ch6vyze6a3fs.ap-northeast-2.rds.amazonaws.com:3306/auth"
+    username: "auth"
+    password: "{cipher}7978eb95dd6c1a6495b162e549f0da8d50896d8045b6a0cb9f2e6928f92f913d"
     dbcp2:
       test-while-idle: true  
       validation-query: "SELECT 1"
