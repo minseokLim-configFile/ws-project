@@ -10,7 +10,9 @@ management:
 logging:
   level:
     com.wsproject.zuulsvr: debug
-    
+spring:
+  zipkin:
+    enabled: false
 #spring:
 #  zipkin:
 #    base-url: http://zipkin:9411
