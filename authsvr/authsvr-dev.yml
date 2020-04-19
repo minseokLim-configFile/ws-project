@@ -28,5 +28,5 @@ logging:
     org.springframework: debug
     
 custom:
-  api-base-uri: http://zuulsvr:5555/api
+  api-private-base-uri: http://zuulsvr:5555/api
   jwt-signkey: "{cipher}73e168f04e3f17ce08518b76f28cbf303a18b6b8700cfb0fcfa1f338f7fc56b6"
