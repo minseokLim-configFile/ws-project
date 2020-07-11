@@ -10,6 +10,12 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        cache:
+          use_second_level_cache: true
+          use_query_cache: true
+          region:
+            factory_class: org.hibernate.cache.ehcache.internal.EhCacheRegionFactory
+        generate_statistics: true
     show-sql: true   
     hibernate:
       ddl-auto: update
